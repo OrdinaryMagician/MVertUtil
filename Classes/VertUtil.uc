@@ -22,7 +22,7 @@ static final function int GetClosestVertex( Mesh Mesh, Actor Actor,
 	local vector Prev, End;
 	local float Dist;
 	local int Index, Count, i;
-	Prev = vect(6556,65536,65536);
+	Prev = vect(65536,65536,65536);
 	Dist = 65536;
 	Index = -1;
 	Count = GetVertexCount(Mesh);
